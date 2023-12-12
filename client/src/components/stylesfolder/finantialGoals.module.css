@@ -1,0 +1,80 @@
+/* Styles for the FinancialGoals component */
+.financial-goals-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: #f4f7fa;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+.financial-goals-form {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px; /* Maximum width for the form */
+  margin-top: 20px;
+}
+
+.financial-goals-form div {
+  margin-bottom: 15px;
+}
+
+.financial-goals-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.financial-goals-form input[type="number"],
+.financial-goals-form input[type="text"],
+.financial-goals-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.financial-goals-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.financial-goals-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .financial-goals-form {
+    padding: 20px;
+  }
+
+  .financial-goals-form label,
+  .financial-goals-form input,
+  .financial-goals-form button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .financial-goals-form {
+    padding: 15px;
+  }
+}

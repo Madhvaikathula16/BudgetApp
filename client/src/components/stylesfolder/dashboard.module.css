@@ -1,0 +1,53 @@
+.dashboardContainer {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Keeps everything centered */
+  min-height: 100vh;
+  background-color: #e7eff6; /* Soft blue background */
+}
+
+.navbar {
+  width: 100%;
+  background-color: #34577e; /* Darker blue for navbar */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #f0f8ff; /* Light color for text */
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #f0f8ff; /* Lighter blue for hover */
+}
+
+.leftNavbar,
+.rightNavbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 20px 0;
+  font-size: 24px;
+  color: #2c3e50; /* Dark color for contrast */
+}
+
+.content {
+  width: 80%;
+  margin: 20px auto; /* Centers content horizontally */
+  padding: 20px;
+  background-color: aliceblue; /* Keeping content area white for readability */
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  min-height: 60vh;
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center children horizontally */
+}

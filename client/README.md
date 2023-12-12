@@ -1,6 +1,3 @@
-# Backend is configured to run on aws lambda (Node-js) just open client folder in terminal hit(npm install) next hit(npm run)
-# you need npm to run this
-# Up and running project link: https://dev6621.d2f5il1et5n0xj.amplifyapp.com 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

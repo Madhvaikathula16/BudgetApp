@@ -1,0 +1,74 @@
+/* Registration Form Container Styles */
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: #f4f7fa;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.registration-form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Input Styles */
+.form-input {
+  margin-bottom: 15px;
+  width: calc(100% - 20px); /* Full width minus padding */
+  max-width: 400px; /* Increase the max-width */
+  padding: 12px; /* Increase padding for larger input field */
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Submit Button Styles */
+.submit-button {
+  width: calc(100% - 20px); /* Match the width of the inputs */
+  max-width: 400px; /* Match the max-width of the inputs */
+  padding: 12px 0;
+  background-color: #007bff; /* Example button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message Styles */
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+/* Anchor Link Styles */
+.anchor a {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.anchor a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-input,
+  .submit-button {
+    font-size: 0.9rem;
+  }
+}
